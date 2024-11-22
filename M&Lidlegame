@@ -318,7 +318,8 @@ Upgrades
 		req:10 citadels
 		
 	//golden carrot upgrades
-	
+	*/
+/*
 	*goldenTouch
 		name:Golden touch
 		desc:The delicate art of finding vegetables made of precious metals.<//><b>Effect:</b><.>1% chance of gaining 1 golden carrot per bunny click
@@ -354,7 +355,7 @@ Upgrades
 		icon:icons[2,9]
 		cost:100 goldenCarrots
 		req:50 goldenCarrots:earned
-		
+	/*	
 Achievements
 	*TEMPLATE
 		on click:anim glow
