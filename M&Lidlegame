@@ -21,7 +21,7 @@ Buttons
 		desc:Click the coin to get more coins!
 		on click:anim icon wobble
 		on click:yield 1 coin
-		icon:https://i.pinimg.com/originals/dd/87/a3/dd87a3ca8ed7d440d6f5d177fd68ad6f.png
+		icon:https://static.wikia.nocookie.net/fantendo/images/c/c0/Coin_-_2D_art.svg/revision/latest/scale-to-width-down/250?cb=20220902043736
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
