@@ -28,7 +28,7 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 		
-/*
+
 Resources
 	*coin|coins
 		name:Coin|Coins
@@ -43,7 +43,7 @@ Resources
 		icon:https://static.wikia.nocookie.net/mario/images/3/32/Star_Coin.png/revision/latest?cb=20231027235640
 		class:noBackground
 		hidden when 0
-		
+/*
 Shinies
 	*luckyBunny
 		on click:log Woop
