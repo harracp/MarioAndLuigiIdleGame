@@ -10,7 +10,7 @@ Settings
 	background:https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Mario-and-Luigi-Fighting-on-Mario-Party-Background.jpg
 	building cost increase:130%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+	spritesheet:
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -58,13 +58,13 @@ Shinies
 			if (have clover) $boost=4
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
-				$amount=max(7,random(bunnies:ps*60*1,bunnies:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] bunnies</b>.
-				yield $amount bunnies
+				$amount=max(7,random(coins:ps*60*1,coins:ps*60*3))*$boost
+				toast The lucky coin grants you<//><b>[$amount] coins</b>.
+				yield $amount coins
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
+				toast The lucky coin grants you<//><b>[$amount] Special Coins[s?$amount]</b>!
+				yield $amount specialCoins
 			end
 		end
 
