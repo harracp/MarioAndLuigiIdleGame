@@ -17,13 +17,13 @@ Layout
 	use default
 		
 Buttons
-	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+	*coinButton
+		name:Collect a Coin
+		desc:Click the coin to get more coins!
 		on click:anim icon wobble
-		on click:yield 1 bunny
-		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		on click:yield 1 coin
+		on click:if (have goldenTouch and chance(1%)) yield 1 specialCoin
+		icon:https://i.pinimg.com/originals/dd/87/a3/dd87a3ca8ed7d440d6f5d177fd68ad6f.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -31,17 +31,17 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,0]
+	*coin|coins
+		name:Coin|Coins
+		desc:This is the currency of the game. You can use them to purchase things.
+		icon:https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png
 		class:noBackground
 		show earned
 		
-	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
-		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
-		icon:icons[0,1]
+	*specialCoin|specialCoins
+		name:Special Coin|Special Coins
+		desc:These coins are very special and very precious!
+		icon:https://static.wikia.nocookie.net/mario/images/3/32/Star_Coin.png/revision/latest?cb=20231027235640
 		class:noBackground
 		hidden when 0
 		
