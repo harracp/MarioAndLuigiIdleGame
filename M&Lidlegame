@@ -355,7 +355,8 @@ Upgrades
 		icon:icons[2,9]
 		cost:100 goldenCarrots
 		req:50 goldenCarrots:earned
-	/*	
+	*/
+/*
 Achievements
 	*TEMPLATE
 		on click:anim glow
