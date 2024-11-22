@@ -21,7 +21,6 @@ Buttons
 		desc:Click the coin to get more coins!
 		on click:anim icon wobble
 		on click:yield 1 coin
-		// on click:if (have goldenTouch and chance(1%)) yield 1 specialCoin
 		icon:https://i.pinimg.com/originals/dd/87/a3/dd87a3ca8ed7d440d6f5d177fd68ad6f.png
 		no text
 		class:bigButton hasFlares
