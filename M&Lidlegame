@@ -17,11 +17,11 @@ Layout
 		
 Buttons
 	*coinButton
-		name:Collect a Coin
+		name:? Block
 		desc:Click the ? Block to get more coins!
 		on click:anim icon wobble
 		on click:yield 1 coin
-		icon:https://w7.pngwing.com/pngs/506/763/png-transparent-super-mario-world-minecraft-super-mario-bros-mario-heroes-super-mario-bros-text-thumbnail.png
+		icon:https://art.pixilart.com/sr2a1a78a463faws3.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
