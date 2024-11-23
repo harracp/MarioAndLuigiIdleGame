@@ -18,10 +18,10 @@ Layout
 Buttons
 	*coinButton
 		name:Collect a Coin
-		desc:Click the coin to get more coins!
+		desc:Click the ? Block to get more coins!
 		on click:anim icon wobble
 		on click:yield 1 coin
-		icon:https://static.wikia.nocookie.net/fantendo/images/c/c0/Coin_-_2D_art.svg/revision/latest/scale-to-width-down/250?cb=20220902043736
+		icon:https://w7.pngwing.com/pngs/506/763/png-transparent-super-mario-world-minecraft-super-mario-bros-mario-heroes-super-mario-bros-text-thumbnail.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
