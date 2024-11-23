@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Mario and Luigi Idle
 	by:Cam and Luke
-	desc:An Idle Game based on the Mario and Luigi RPG series.<//>Collect Coins and buy Items!
+	desc:An Idle Game based on the Mario and Luigi RPG series.
 	created:22/11/2024
 	updated:22/11/2024
 	version:1.0
@@ -64,27 +64,28 @@ Shinies
 				yield $amount specialCoins
 			end
 		end
+*/
 
 Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
-		icon:icons[3,0]
-		cost:15 bunnies
-		on tick:yield 0.1 bunny
+	*mushroom|mushrooms
+		name:Mushroom|Mushrooms
+		desc:Power Up!<//><b>Effect:</b><.>Produces 1 coin every 10 seconds.
+		icon:https://static.wikia.nocookie.net/nintendo-central-nintendo/images/e/eb/Super_Mushroom_SMW.png
+		cost:15 coins
+		on tick:yield 0.1 coin
 		unlocked
-	
+/*
 	*hutch|hutches
 		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 coin every 2 seconds.
 		icon:icons[3,1]
 		cost:100 bunnies
 		on tick:yield 0.5 bunnies
 		req:100 bunnies:earned
-	
+
 	*coop|coops
 		name:Rabbit coop|Rabbit coops
 		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
@@ -143,7 +144,8 @@ Buildings
 		req:70000000 bunnies:earned and independenceDay
 		limit:100
 		cost increase:105%
-		
+*/
+/*	
 Upgrades
 	*TEMPLATE
 		on click:anim glow
