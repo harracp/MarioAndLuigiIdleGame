@@ -31,7 +31,7 @@ Resources
 	*coin|coins
 		name:Coin|Coins
 		desc:This is the currency of the game. You can use them to purchase things.
-		icon:https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png
+		icon:https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88168051-ac5d-4131-8981-bfadfe509221/db10lgx-72baed61-aa3f-47ef-b3e0-d36ce3563b8d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg4MTY4MDUxLWFjNWQtNDEzMS04OTgxLWJmYWRmZTUwOTIyMVwvZGIxMGxneC03MmJhZWQ2MS1hYTNmLTQ3ZWYtYjNlMC1kMzZjZTM1NjNiOGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ODybTARiMMZPGVmyTz8ANeD4xh4BS1qc2TeSZvTDP8M
 		class:noBackground
 		show earned
 		
