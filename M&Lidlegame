@@ -145,22 +145,20 @@ Buildings
 		limit:100
 		cost increase:105%
 */
-/*	
+	
 Upgrades
 	*TEMPLATE
 		on click:anim glow
 	
-	//food upgrades
-	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
 	
-	*parsley
-		name:Parsley
-		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,1]
-		cost:100 bunnies
-		passive:increase bunny yield of bunnyButton by 1
-		req:10 bunnies:earned
-		
+	*gloves
+		name:Gloves
+		desc:Increase Coin Collecting Efficiency.<//><b>Effect:</b><.>+1 coin/click
+		icon:https://i.ibb.co/XXh38Fy/pixilart-drawing-1.png
+		cost:100 coins
+		passive:increase coin yield of coinButton by 1
+		req:10 coins:earned
+/*
 	*spinach
 		name:Spinach
 		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
