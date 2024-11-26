@@ -73,7 +73,7 @@ Buildings
 	*mushroom|mushrooms
 		name:Mushroom|Mushrooms
 		desc:Power Up!<//><b>Effect:</b><.>Produces 1 coin every 10 seconds.
-		icon:https://i.ibb.co/zGd5T3v/pixilart-drawing.png
+		icon:https://i.ibb.co/thkPvGH/pixilart-drawing.png
 		cost:15 coins
 		on tick:yield 0.1 coin
 		unlocked
