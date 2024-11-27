@@ -72,20 +72,20 @@ Buildings
 		
 	*mushroom|mushrooms
 		name:Mushroom|Mushrooms
-		desc:Power Up!<//><b>Effect:</b><.>Produces 1 coin every 10 seconds.
+		desc:Heal some Health!<//><b>Effect:</b><.>Produces 1 coin every 10 seconds.
 		icon:https://i.ibb.co/W3g8nCW/pixilart-drawing.png
 		cost:15 coins
 		on tick:yield 0.1 coin
 		unlocked
-/*
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 coin every 2 seconds.
-		icon:icons[3,1]
-		cost:100 bunnies
-		on tick:yield 0.5 bunnies
-		req:100 bunnies:earned
 
+	*nut|nuts
+		name:Nut|Nuts
+		desc:Restore more Health!<//><b>Effect:</b><.>Produces 1 coin every 2 seconds.
+		icon:https://mario.wiki.gallery/images/a/aa/M%26LDT_Nut.png
+		cost:100 coin
+		on tick:yield 0.5 coins
+		req:500 coins:earned
+/*
 	*coop|coops
 		name:Rabbit coop|Rabbit coops
 		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
@@ -155,9 +155,9 @@ Upgrades
 		name:Gloves
 		desc:Increase Coin Collecting Efficiency.<//><b>Effect:</b><.>+1 coin/click
 		icon:https://i.ibb.co/XXh38Fy/pixilart-drawing-1.png
-		cost:100 coins
+		cost:200 coins
 		passive:increase coin yield of coinButton by 1
-		req:10 coins:earned
+		req:100 coins:earned
 /*
 	*spinach
 		name:Spinach
