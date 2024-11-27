@@ -81,7 +81,7 @@ Buildings
 	*nut|nuts
 		name:Nut|Nuts
 		desc:Restore more Health!<//><b>Effect:</b><.>Produces 1 coin every 2 seconds.
-		icon:https://mario.wiki.gallery/images/a/aa/M%26LDT_Nut.png
+		icon:https://i.ibb.co/KqnkMyT/M-LDT-Nut.png
 		cost:100 coin
 		on tick:yield 0.5 coins
 		req:500 coins:earned
