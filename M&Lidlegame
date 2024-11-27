@@ -89,7 +89,7 @@ Buildings
 	*syrup|syrups
 		name:Syrup|Syrups
 		desc:Restore Some BP!<//><b>Effect:</b><.>Produces 5 coins per second.
-		icon:icons[3,2]
+		icon:https://i.ibb.co/8b5gRKJ/M-LDT-Syrup.png
 		cost:1200 coins
 		on tick:yield 5 coins
 		req:200 coins:earned
