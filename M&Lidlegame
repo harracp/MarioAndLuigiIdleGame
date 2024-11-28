@@ -156,7 +156,7 @@ Upgrades
 		desc:Increase Coin Collecting Efficiency.<//><b>Effect:</b><.>+0.5 coin/click
 		icon:https://i.ibb.co/7vCdDxF/Gloves.png
 		cost:200 coins
-		passive:increase coin yield of coinButton by 1
+		passive:increase coin yield of coinButton by 0.5
 		req:100 coins:earned
 
 	*lightwear
