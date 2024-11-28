@@ -73,7 +73,7 @@ Buildings
 	*mushroom|mushrooms
 		name:Mushroom|Mushrooms
 		desc:Heal some Health!<//><b>Effect:</b><.>Produces 1 coin every 10 seconds.
-		icon:https://i.ibb.co/W3g8nCW/pixilart-drawing.png
+		icon:https://i.ibb.co/0DX7QgL/M-LDT-Mushroom.png
 		cost:15 coins
 		on tick:yield 0.1 coin
 		unlocked
