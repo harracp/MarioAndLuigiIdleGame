@@ -159,7 +159,7 @@ Upgrades
 		passive:increase coin yield of coinButton by 1
 		req:100 coins:earned
 
-	*light wear
+	*lightwear
 		name:Light Wear
 		desc:Make yourself stronger.<//><b>Effect:</b><.>+1 coin/click
 		icon:https://i.ibb.co/PWZMT5Z/Mand-L-Items-1.png
