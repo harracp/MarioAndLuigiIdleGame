@@ -158,15 +158,15 @@ Upgrades
 		cost:200 coins
 		passive:increase coin yield of coinButton by 1
 		req:100 coins:earned
-/*
-	*spinach
-		name:Spinach
-		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,2]
-		cost:200 bunnies
-		passive:increase bunny yield of bunnyButton by 1
-		req:50 bunnies:earned
-		
+
+	*light wear
+		name:Light Wear
+		desc:Make yourself stronger.<//><b>Effect:</b><.>+1 coin/click
+		icon:https://i.ibb.co/PWZMT5Z/Mand-L-Items-1.png
+		cost:500 coins
+		passive:increase coin yield of coinButton by 1
+		req:250 coins:earned
+/*	
 	*lettuce
 		name:Lettuce
 		desc:Frilly greens loved by all bunnies.<//><b>Effect:</b><.>+1 bunny/click
