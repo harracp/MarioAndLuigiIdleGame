@@ -35,13 +35,6 @@ Resources
 		class:noBackground
 		show earned
 		
-	*specialCoin|specialCoins
-		name:Special Coin|Special Coins
-		desc:These coins are very special and very precious!
-		icon:https://static.wikia.nocookie.net/mario/images/3/32/Star_Coin.png/revision/latest?cb=20231027235640
-		class:noBackground
-		hidden when 0
-
 Buildings
 	*TEMPLATE
 		on click:anim glow
@@ -329,16 +322,17 @@ Upgrades
 		cost:100 goldenCarrots
 		req:50 goldenCarrots:earned
 	*/
-/*
+
 Achievements
 	*TEMPLATE
 		on click:anim glow
 		
-	*bunnyAchiev1
-		name:Run rabbit run
-		desc:Have <b>1</b> bunny.
-		req:1 bunny
-		icon:icons[2,4] icons[0,2] icons[0,6]
+	*coinAchiev1
+		name:Coin?
+		desc:Have <b>100</b> coins.
+		req:100 coins
+		icon:https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png
+/*
 	*bunnyAchiev2
 		name:Bunniest home videos
 		desc:Have <b>1000</b> bunnies.
