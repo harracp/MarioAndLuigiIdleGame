@@ -41,30 +41,6 @@ Resources
 		icon:https://static.wikia.nocookie.net/mario/images/3/32/Star_Coin.png/revision/latest?cb=20231027235640
 		class:noBackground
 		hidden when 0
-/*
-Shinies
-	*luckyBunny
-		on click:log Woop
-		movement:onRight moveLeft fade bounce:0.05
-		frequency:60
-		frequency variation:30
-		icon:stuff/luckyBunny.png
-		class:bigButton
-		on click:
-			$boost=1
-			if (have clover) $boost=4
-			if (chance(25%))
-				//get at least 7, or between 1 and 3 minutes of our bunny production
-				$amount=max(7,random(coins:ps*60*1,coins:ps*60*3))*$boost
-				toast The lucky coin grants you<//><b>[$amount] coins</b>.
-				yield $amount coins
-			else
-				$amount=1*$boost
-				toast The lucky coin grants you<//><b>[$amount] Special Coins[s?$amount]</b>!
-				yield $amount specialCoins
-			end
-		end
-*/
 
 Buildings
 	*TEMPLATE
@@ -93,15 +69,15 @@ Buildings
 		cost:1200 coins
 		on tick:yield 5 coins
 		req:200 coins:earned
-/*	
-	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
-		icon:icons[3,3]
-		cost:4000 bunnies
-		on tick:yield 12 bunnies
-		req:4000 bunnies:earned
-	
+
+	*refreshingherb|refreshingherbs
+		name:Refreshing Herb|Refreshing Herbs
+		desc:Heals all status conditions!<//><b>Effect:</b><.>Produces 12 coins per second.
+		icon:https://i.ibb.co/Hp1R8r3/refreshing-herb.png
+		cost:4000 coins
+		on tick:yield 12 coins
+		req:1000 coins:earned
+/*
 	*meadow|meadows
 		name:Rabbit meadow|Rabbit meadows
 		desc:A wide open space full of shade and lush grass.<//><b>Effect:</b><.>Produces 90 rabbits per second.
@@ -156,7 +132,7 @@ Upgrades
 		desc:Increase Coin Collecting Efficiency.<//><b>Effect:</b><.>+0.5 coin/click
 		icon:https://i.ibb.co/7vCdDxF/Gloves.png
 		cost:200 coins
-		passive:increase coin yield of coinButton by 0.5
+		passive:increase coin yield of coinButton by 1
 		req:100 coins:earned
 
 	*lightwear
@@ -164,7 +140,7 @@ Upgrades
 		desc:Make yourself stronger.<//><b>Effect:</b><.>+1 coin/click
 		icon:https://i.ibb.co/PWZMT5Z/Mand-L-Items-1.png
 		cost:500 coins
-		passive:increase coin yield of coinButton by 1
+		passive:increase coin yield of coinButton by 2
 		req:250 coins:earned
 /*	
 	*lettuce
