@@ -10,8 +10,8 @@ Settings
 	background:https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Mario-and-Luigi-Fighting-on-Mario-Party-Background.jpg
 	building cost increase:130%
 	building cost refund:50%
-	stylesheet:stuff/bigBlue.css
-
+	stylesheet:
+stuff/bigBlue.css
 Layout
 	use default
 		
