@@ -293,12 +293,12 @@ Achievements
 		desc:Have <b>100</b> coins.
 		req:100 coins
 		icon:https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png, https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png, https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png
+	*mushroomAchiev1
+		name:Power Up!
+		desc:Have <b>10</b> mushrooms.
+		req:10 mushrooms
+		icon:https://i.ibb.co/0DX7QgL/M-LDT-Mushroom.png, https://i.ibb.co/0DX7QgL/M-LDT-Mushroom.png, https://i.ibb.co/0DX7QgL/M-LDT-Mushroom.png
 /*
-	*bunnyAchiev2
-		name:Bunniest home videos
-		desc:Have <b>1000</b> bunnies.
-		req:1000 bunnies
-		icon:icons[2,4] icons[0,3] icons[0,6]
 	*bunnyAchiev3
 		name:You got buns, hun
 		desc:Have <b>1000000</b> bunnies.
